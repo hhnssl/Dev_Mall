@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/join.css" />
+    <title>회원 가입</title>
+  </head>
+  <body>
+    <main>
+      <!-- <span>헤딩 태그 필요한가?</span> -->
+      <div class="wrapper">
+        <!-- 로고 구매/판매 가르는 버튼 폼 -->
+        <form id="form" action="/">
+          <div class="form-control">
+            <label for="username">아이디</label>
+            <input id="username" type="text" />
+            <button>중복확인</button>
+            <span class="message">필수 정보입니다.</span>
+          </div>
+
+          <div class="form-control">
+            <label for="password">비밀번호</label>
+            <input id="password" type="password" />
+            <span class="message">필수 정보입니다.</span>
+          </div>
+
+          <div class="form-control">
+            <label for="password2">비밀번호 재확인</label>
+            <input id="password2" type="password" />
+            <span class="message">필수 정보입니다.</span>
+          </div>
+
+          <div class="form-control">
+            <label for="name">이름</label>
+            <input id="name" type="text" />
+            <span class="message">필수 정보입니다.</span>
+          </div>
+
+          <div class="form-control">
+            <strong>휴대폰번호</strong>
+            <select name="phone_number" id="phone_number1">
+              <option value="010">010</option>
+              <option value="011">011</option>
+              <option value="016">016</option>
+              <option value="017">017</option>
+            </select>
+            <input type="tel" />
+            <input type="tel" />
+            <span class="message">필수 정보입니다.</span>
+          </div>
+
+          <div class="form-control">
+            <strong>이메일</strong>
+            <input id="email1" type="text" />
+            @
+            <input id="email2" type="text" />
+            <span class="message">필수 정보입니다.</span>
+          </div>
+
+          <label for="checkbox"></label>
+          <input id="checkbox" type="checkbox" />
+          <span
+            >호두샵의 <a href="#">이용약관</a> 및
+            <a href="#">개인정보처리방침</a>에 대한 내용을 확인하였고
+            동의합니다.</span
+          >
+
+          <button type="submit">가입하기</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

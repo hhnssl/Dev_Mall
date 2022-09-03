@@ -1,0 +1,15 @@
+/* reset.css <- 여기서 지우고 최상위 파일에 임포트하기 */
+@import url(./reset.css);
+
+.form-control .message {
+  display: none;
+}
+
+/* 
+  https://www.codingfactory.net/10710
+  참고해서 input은 숨기고
+  label을 꾸미기! (input은 못 꾸미니까)
+*/
+input[id='checkbox'] {
+  display: none;
+}

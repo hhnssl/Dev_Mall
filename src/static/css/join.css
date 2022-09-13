@@ -1,8 +1,38 @@
 /* reset.css <- 여기서 지우고 최상위 파일에 임포트하기 */
 @import url(./reset.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
-.form-control .message {
-  display: none;
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+* {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+body {
+  /* display: flex; */
+
+  background-color: #efefef;
+}
+
+.wrapper {
+  /* background-color: #00eeee; */
+  /* max-width: 1200px; : 1200까지 늘어남, 700은 700까지 늘어남 */
+  margin: 0 auto;
+  max-width: 550px;
+}
+
+/* header */
+header {
+  margin: 50px 0;
+  background-color: #00aaaa;
+  text-align: center;
+}
+
+.logo {
+  max-width: 90%;
 }
 
 /* 
@@ -10,6 +40,49 @@
   참고해서 input은 숨기고
   label을 꾸미기! (input은 못 꾸미니까)
 */
-input[id='checkbox'] {
+/* input[id='checkbox'] {
+  display: none;
+} */
+
+/* main */
+main {
+  /* margin-bottom: 50px; */
+}
+
+form {
+  padding: 50px;
+  max-height: 700px;
+
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; */
+}
+
+.form-control {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  margin-bottom: 10px;
+  color: #767676;
+}
+
+.form-control input {
+  margin-bottom: 10px;
+  max-width: 100%;
+  min-height: 40px;
+
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.form-control span {
   display: none;
 }

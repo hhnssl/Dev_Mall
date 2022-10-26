@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Dev_Mall/dev_mall/static/css/main.c01f4445.css",
+    "main.js": "/Dev_Mall/dev_mall/static/js/main.fcbb1447.js",
+    "index.html": "/Dev_Mall/dev_mall/index.html",
+    "main.c01f4445.css.map": "/Dev_Mall/dev_mall/static/css/main.c01f4445.css.map",
+    "main.fcbb1447.js.map": "/Dev_Mall/dev_mall/static/js/main.fcbb1447.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c01f4445.css",
+    "static/js/main.fcbb1447.js"
+  ]
+}
